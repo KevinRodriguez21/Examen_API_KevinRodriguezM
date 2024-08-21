@@ -1,0 +1,7 @@
+﻿Cadena de Conexion:
+
+"SERVER=.;DATABASE=AnswersDB;INTEGRATED SECURITY=FALSE;User Id=ExamKevin;Password=Kevin1234;TrustServerCertificate=True"
+
+Comando generador de DbContext:
+
+Scaffold-DbContext -f "SERVER=.;DATABASE=AnswersDB;INTEGRATED SECURITY=FALSE;User Id=ExamKevin;Password=Kevin1234;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
